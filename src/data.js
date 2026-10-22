@@ -11,13 +11,14 @@ export const profile = {
   tagline:
     'Building intelligent systems that move from research to real-world software.',
   email: 'sumairdero62@gmail.com',
-  phone: '+92 342 315 9267',
-  phoneHref: 'tel:+923423159267',
+  phone: '03423159267',
+  phoneHref: 'tel:03423159267',
   whatsapp: 'https://wa.me/923423159267?text=Hi%20Sumair%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect.',
   location: 'Hyderabad, Sindh, Pakistan',
   github: 'SUMAIRDERO62',
   githubUrl: 'https://github.com/SUMAIRDERO62',
   linkedinUrl: 'https://www.linkedin.com/in/sumair-ahmed-dero-70ba852a0',
+  portfolioUrl: 'https://sumair-ahmed-dero-ai-journey.vercel.app/',
   // GitHub avatar — falls back to initials if it fails to load.
   // To use your own photo instead: put it in /public/Profileimage.jpeg and set avatar: '/Profileimage.jpeg'
   avatar: 'https://avatars.githubusercontent.com/u/189377018?v=4',
