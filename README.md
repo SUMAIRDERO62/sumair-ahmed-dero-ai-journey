@@ -8,7 +8,7 @@
 [![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![Deploy](https://img.shields.io/badge/Deploy-Vercel%20%7C%20Netlify-000000?style=for-the-badge&logo=vercel&logoColor=white)](#-deployment)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel%20%7C%20Netlify-000000?style=for-the-badge&logo=vercel&logoColor=white)](#-https://sumair-ahmed-dero-ai-journey.vercel.app/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-SUMAIRDERO62-181717?style=for-the-badge&logo=github)](https://github.com/SUMAIRDERO62)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumair-ahmed-dero-70ba852a0)
