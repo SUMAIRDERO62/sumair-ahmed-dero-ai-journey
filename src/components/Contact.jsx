@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone } from 'lucide-react';
+import { Globe, Mail, Phone } from 'lucide-react';
 import { GithubIcon, LinkedinIcon, WhatsappIcon } from './BrandIcons';
 import { Reveal, SectionHeading } from './ui';
 import { profile } from '../data';
@@ -32,7 +32,8 @@ export default function Contact() {
         <Reveal className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <Card href={profile.whatsapp} icon={<WhatsappIcon />} title="WhatsApp" sub={`${profile.phone} · chat directly`} />
           <Card href={`mailto:${profile.email}`} external={false} icon={<Mail className="w-5 h-5" />} title="Email" sub={profile.email} />
-          <Card href={profile.linkedinUrl} icon={<LinkedinIcon />} title="LinkedIn" sub="Connect with me" />
+          <Card href={profile.linkedinUrl} icon={<LinkedinIcon />} title="LinkedIn" sub="www.linkedin.com/in/sumair-ahmed-dero-70ba852a0" />
+          <Card href={profile.portfolioUrl} icon={<Globe className="w-5 h-5" />} title="Portfolio" sub={profile.portfolioUrl} />
           <Card href={profile.githubUrl} icon={<GithubIcon />} title="GitHub" sub={`@${profile.github}`} />
           <Card href={profile.phoneHref} external={false} icon={<Phone className="w-5 h-5" />} title="Call" sub={profile.phone} />
         </Reveal>
@@ -47,6 +48,13 @@ export function Footer() {
       <p>
         © {new Date().getFullYear()} {profile.name} · Built with React, Vite &amp; Tailwind · Projects synced live from{' '}
         <a href={profile.githubUrl} target="_blank" rel="noreferrer" className="text-accent hover:underline">GitHub</a>
+      </p>
+      <p className="mt-2 flex flex-wrap justify-center gap-x-3 gap-y-1">
+        <a href={profile.phoneHref} className="text-accent hover:underline">Phone: {profile.phone}</a>
+        <span aria-hidden="true">·</span>
+        <a href={`mailto:${profile.email}`} className="text-accent hover:underline">Email: {profile.email}</a>
+        <span aria-hidden="true">·</span>
+        <a href={profile.linkedinUrl} target="_blank" rel="noreferrer" className="text-accent hover:underline">LinkedIn</a>
       </p>
     </footer>
   );
